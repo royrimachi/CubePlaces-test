@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "code": "p001",
+    "name": "book",
+    "description": "A simple cooking book",
+    "price":  "10.00"
+  },
+  {
+    "id": 2,
+    "code": "p002",
+    "name": "pen",
+    "description": "A simple pen",
+    "price": "2.00"
+  }
+]

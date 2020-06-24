@@ -1,6 +1,6 @@
-using System;
+﻿using System;
 
-namespace WEB
+namespace CubePlaces.Domain.Models
 {
     public class WeatherForecast
     {
