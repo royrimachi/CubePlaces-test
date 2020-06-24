@@ -2,15 +2,36 @@
   {
     "id": 1,
     "code": "p001",
-    "name": "book",
-    "description": "A simple cooking book",
-    "price":  "10.00"
+    "name": "Libro",
+    "description": "Un libro de cocina",
+    "price": "10.00"
   },
   {
     "id": 2,
     "code": "p002",
-    "name": "pen",
-    "description": "A simple pen",
+    "name": "Lapicero",
+    "description": "Un lapicero simple",
     "price": "2.00"
+  },
+  {
+    "id": 3,
+    "code": "p003",
+    "name": "Lapiz",
+    "description": "Un lapiz simple",
+    "price": "1.00"
+  },
+  {
+    "id": 4,
+    "code": "p004",
+    "name": "Impresora",
+    "description": "Descripcion de prueba",
+    "price": "200.00"
+  },
+  {
+    "id": 5,
+    "code": "p005",
+    "name": "Escritorio",
+    "description": "Descripcion de prueba",
+    "price": "600.00"
   }
 ]

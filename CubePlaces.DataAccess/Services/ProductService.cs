@@ -12,6 +12,7 @@ namespace CubePlaces.DataAccess.Services
     {
         private readonly string JsonFilePath;
         private readonly string JsonFile;
+        private readonly List<Product> Products;
 
         public ProductService()
         {
@@ -21,12 +22,24 @@ namespace CubePlaces.DataAccess.Services
             {
                 JsonFile = reader.ReadToEnd();
             }
+            Products = JsonConvert.DeserializeObject<List<Product>>(JsonFile);
         }
 
         public List<Product> GetAll()
         {
-            List<Product> products = JsonConvert.DeserializeObject<List<Product>>(JsonFile);
-            return products;
+            return Products;
+        }
+
+        public Product GetById(int id)
+        {
+            Product product = Products.Find(
+                delegate (Product p)
+                {
+                    return p.Id == id;
+                }
+            );
+
+            return product;
         }
     }
 }
